@@ -1,4 +1,4 @@
-#Pythonic way of counting objects
+#Pythonic way of counting objectsz
 word = "DIHFAHSIH"
 counter = {}
 for letter in word:
