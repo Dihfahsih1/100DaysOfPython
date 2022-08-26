@@ -10,3 +10,10 @@ file.write("This the first line")
 file.write("\n")
 file.write("This is the second line")
 file.close()
+
+#spliting
+with open('example2.txt', "r") as reader:
+  data=reader.readlines()
+  for line in data:
+    word = line.split()
+    print(word)
